@@ -20,3 +20,7 @@
 [Bb]uild/
 bin/
 obj/
+
+# db files
+.CSharpShellProjData.db
+.CSharpShellSlnData.db
