@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="BCATree.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <asp:TreeView ID="TreeView1" runat="server">
+                <Nodes>
+                    <asp:TreeNode Text="BCA" Value="BCA">
+                        <asp:TreeNode Text="FY BCA" Value="FY BCA">
+                            <asp:TreeNode Text="C" Value="C" NavigateUrl="~/C.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="DCF" Value="DCF" NavigateUrl="~/DCF.aspx"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="SY BCA" Value="SY BCA">
+                            <asp:TreeNode Text="PYTHON" Value="PYTHON" NavigateUrl="~/Python.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="AWP" Value="AWP"></asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode Text="TY BCA" Value="TY BCA">
+                            <asp:TreeNode Text="MERN" Value="MERN"></asp:TreeNode>
+                            <asp:TreeNode Text="DATA SCIENCE" Value="DATA SCIENCE"></asp:TreeNode>
+                        </asp:TreeNode>
+                    </asp:TreeNode>
+                </Nodes>
+            </asp:TreeView>
+
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
