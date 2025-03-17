@@ -28,19 +28,18 @@ namespace Happy_Number
                     temp = temp / 10;
                 }
 
-                u = sum;
-
                 if (sum == 1)
                 {
                     Console.WriteLine(check + " is a Happy Number :)");
                     break;
                 }
-                else if (sum == check)
+                else if (sum == 4)
                 {
                     Console.WriteLine(check + " is not Happy Number :(");
                     break;
                 }
 
+                u = sum;
             }
         }
 
