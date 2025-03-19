@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student>
+    <Name>John</Name>
+    <Age>20</Age>
+    <Class>1st</Class>
+  </Student>
+  <Student>
+    <Name>Mary</Name>
+    <Age>21</Age>
+    <Class>2nd</Class>
+  </Student>
+  <Student>
+    <Name>Tom</Name>
+    <Age>22</Age>
+    <Class>3rd</Class>
+  </Student>
+</Students>

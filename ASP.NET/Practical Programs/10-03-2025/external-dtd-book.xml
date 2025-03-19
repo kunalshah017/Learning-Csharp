@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- External DTD for books -->
+<!DOCTYPE Books SYSTEM "book.dtd">
+
+<Books>
+  <Book>
+    <name>The C# Programming Language</name>
+    <author>Ian Griffiths</author>
+    <price>39.95</price>
+  </Book>
+  <Book>
+    <name>C# in Depth</name>
+    <author>Jon Skeet</author>    
+    <price>39.95</price>
+  </Book>
+  <Book>
+    <name>C# 2008 in a Nutshell</name>
+    <author>Jeffrey Richter</author>  
+    <price>39.95</price>
+  </Book>
+</Books>

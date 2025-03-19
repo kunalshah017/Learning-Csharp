@@ -1,0 +1,6 @@
+<!-- External DTD for books -->
+<!ELEMENT Books (Book+)>
+<!ELEMENT Book (name, author, price)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)> 
+<!ELEMENT price (#PCDATA)>

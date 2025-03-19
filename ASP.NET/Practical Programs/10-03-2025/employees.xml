@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type="text/css" href="employees.css" ?>
+
+<!DOCTYPE employees [
+<!ELEMENT employee (name, address, gender, department) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT address (#PCDATA) >
+<!ELEMENT gender (#PCDATA) >
+<!ELEMENT department (#PCDATA) >
+]>
+
+<employees>
+  <employee>
+    <name>John</name>
+    <address>123 Main St.</address>
+    <gender>Male</gender>
+    <department>IT</department>
+  </employee>
+  <employee>
+    <name>Mary</name>
+    <address>456 Main St.</address>
+    <gender>Female</gender>
+    <department>HR</department>
+  </employee>
+  <employee>
+    <name>Tom</name>
+    <address>789 Main St.</address>
+    <gender>Male</gender>
+    <department>IT</department>
+  </employee>
+</employees>
