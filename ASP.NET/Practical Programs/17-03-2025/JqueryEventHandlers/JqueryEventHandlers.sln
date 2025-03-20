@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JqueryEventHandlers", "JqueryEventHandlers\JqueryEventHandlers.csproj", "{55AE55BA-61A4-4EC5-8646-78B07C4D1266}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55AE55BA-61A4-4EC5-8646-78B07C4D1266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AE55BA-61A4-4EC5-8646-78B07C4D1266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AE55BA-61A4-4EC5-8646-78B07C4D1266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AE55BA-61A4-4EC5-8646-78B07C4D1266}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9C2FF35-E8CA-4F86-8F5C-2E27D7E3F535}
+	EndGlobalSection
+EndGlobal
